@@ -121,7 +121,7 @@ def parseArgs():
     parser.add_argument("-adtr", "--add_tick_rotate", type=float, default=0)
     parser.add_argument("-adtcfs", "--add_tick_font_size", type=float, default=7)
     parser.add_argument("-adtcp", "--add_tick_pad", type=float, default=0) #the margin on the right side of the label
-    parser.add_argument("-adlc", "--add_line_color", type=str, default="white") #add_plotの枠線の色
+    parser.add_argument("-adlc", "--add_line_color", type=str, default="white") #the color of add_plot border line
     parser.add_argument("-adlw", "--add_line_width", type=float, default=0) #the border thickness of add_plot
     
     #Setting of vlines
